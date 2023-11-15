@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    grid-template-columns: 0.2fr 1fr 0.2fr;
+    grid-template-rows: 0.2fr 0.2fr 1fr 0.2fr;
+    grid-template-areas:
+     "header header header"
+     "sidebar navigation ads"
+     "sidebar main ads"
+     "footer footer footer";
+     gap: 20px;
+     padding: 20px;
+}
+.container>div{
+    border: 3px solid red;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.header{
+    grid-area: header;
+}
+.sidebar{
+    grid-area: sidebar;
+}
+.navigation{
+    grid-area: navigation;
+}
+.ads{
+    grid-area: ads;
+}
+.main{
+    grid-area: main;
+}
+.footer{
+    grid-area: footer;
+
+}
