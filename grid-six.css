@@ -1,0 +1,69 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    height: 100vh;
+    width:100vw;
+    gap: 10px;
+    padding: 20px;
+    grid-template-columns: auto auto 5% auto auto auto auto;
+    grid-template-rows: 15% 15% auto 15% 15%  15%;
+}
+.container>div{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.featured{
+    background-color: brown;
+    grid-area: 1/1/2/4;
+}
+.header{
+    background-color: black;
+    grid-area: 1/4/2/8;
+}
+.side{
+    background-color: rgb(123, 206, 41);
+    grid-area: 2/1/7/2;
+}
+.product{
+    background-color: darkblue;
+    grid-area: 2/2/4/7;
+}
+.feature2,.feature3{
+    background-color: red;
+}
+.feature3{
+    grid-area: 4/7/5/8;
+
+}
+.bonus1{
+    grid-area: 4/2/5/3;
+}
+.bonus3{
+    grid-area: 4/6/5/7;
+}
+
+.bonus1,.bonus2,.bonus3,.bonus4{
+    background-color: pink;
+}
+.bonus2{
+    grid-area: 5/3/6/5;
+}
+.bonus4{
+    grid-area: 5/7/6/8;
+}
+.footer{
+    background-color: orange;
+    grid-area: 6/2/7/8;
+}
+.header,.footer,.feature1,.feature2,.featured,.bonus1,.bonus2,.bonus3,.bonus4{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
