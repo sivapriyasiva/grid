@@ -1,0 +1,375 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+.container{
+    display: grid;
+    height: 100vh;
+    width:100vw;
+    gap: 50px;
+    padding: 10px;
+    grid-template-columns: 20% 20% 20% 20% ;
+    grid-template-rows: 25% 25% 25% 25% 25% 25% 25% 25% 25% 25%;
+    
+
+}
+
+
+.box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8,.box9,.box10,
+.box11,.box12,.box13,.box14,.box15,.box16,.box17,.box18,.box19,.box20,
+.box21,.box22,.box23,.box24,.box25,.box26,.box27,.box28,.box29,.box30,
+.box31,.box32,.box33,.box34,.box35,.box36,.box37
+{
+    display:grid;
+    gap: 5px;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(209, 192, 92);
+}
+
+.box1>div,.box2>div,.box3>div,.box4>div,.box5>div,.box6>div,.box7>div,.box8>div,.box9>div,.box10>div,
+.box11>div,.box12>div,.box13>div,.box14>div,.box15>div,.box16>div,.box17>div,.box18>div,.box19>div,.box20>div,
+.box21>div,.box22>div,.box23>div,.box24>div,.box25>div,.box26>div,.box27>div,.box28>div,.box29>div,.box30>div,
+.box31>div,.box32>div,.box33>div,.box34>div,.box35>div,.box36>div,.box37>div
+{
+
+    background-color: black;
+}
+
+.main>p{
+    text-align: center;
+    padding: 5px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+/* box 1 style */
+.box1{
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+
+}
+.item1{
+    grid-area: 1/1/3/2;
+}
+
+/* box 2 style */
+.box2{
+    grid-template-columns: auto auto;
+    grid-auto-rows: auto auto;
+}
+.item5{
+    grid-area: 1/2/3/3 ;
+}
+
+/* box 3 style */
+
+.box3{
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+.item9{
+    grid-area: 2/1/3/3;
+}
+
+/* box 4 style */
+.box4{
+    grid-template-columns: 20% auto;
+    grid-template-rows: auto;
+
+}
+
+/* box 5 style */
+.box5{
+    grid-template-columns: auto 20%;
+    grid-template-rows: auto;
+
+}
+
+/* box 6 style */
+.box6{
+    grid-template-columns: 20% auto 20%;
+    grid-template-rows: auto auto;
+
+}
+.item14{
+    grid-area: 1/1/2/3;
+}
+.item17{
+    grid-area: 2/2/3/4;
+}
+
+/* box 7 style */
+.box7{
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+.item21{
+    grid-area: 1/2/3/3;
+}
+
+/* box 8 style */
+.box8{
+    grid-template-columns: auto 20% 20%;
+    grid-template-rows: auto auto 40%;
+}
+.item23{
+    grid-area: 1/1/4/2;
+}
+.item24{
+    grid-area: 1/2/2/4;
+
+}
+.item25{
+    grid-area: 2/2/3/4;
+}
+
+/* box 9 style */
+.box9{
+    grid-template-columns: auto 20%;
+    grid-template-rows: auto auto auto auto;
+}
+.item28{
+    grid-area: 1/1/5/2;
+}
+/* box 10 style */
+.box10{
+    grid-template-columns: auto auto;
+    grid-template-rows: auto ;
+}
+
+/* box 11 style */
+.box11{
+    grid-template-columns:  auto 20% 20%;
+    grid-template-rows: auto  auto;
+}
+.item35{
+    grid-area: 1/1/3/2;
+}
+
+/* box 12 style */
+.box12{
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+}
+
+/* box 13 style */
+.box13{
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+
+/* box 14 style */
+.box14{
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+}
+
+/* box 15 style */
+.box15{
+    grid-template-columns: 20% auto 20%;
+    grid-template-rows: auto;
+}
+
+/* box 16 style */
+.box16{
+    grid-template-columns: auto;
+    grid-template-rows: 20% auto 20%;
+}
+
+/* box 17 style */
+.box17{
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+}
+
+/* box 18 style */
+.box18{
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+}
+
+/* box 19 style */
+.box19{
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto;
+}
+
+/* box 20 style */
+.box20{
+    grid-template-columns: 20% auto 20%;
+    grid-template-rows: auto auto;
+}
+.item68{
+    grid-area: 1/2/3/3;
+}
+
+/* box 21 style */
+.box21{
+    grid-template-columns: auto auto;
+    grid-template-rows: 20% auto 20%;
+}
+.item74{
+    grid-area: 2/1/3/3;
+}
+/* box 22 style */
+.box22{
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+}
+
+/* box 23 style */
+.box23{
+    grid-template-columns: auto auto ;
+    grid-template-rows: auto auto auto;
+}
+.item87{
+    grid-area: 2/1/3/3;
+}
+
+/* box 24 style */
+.box24{
+    grid-template-columns: auto auto  auto auto;
+    grid-template-rows: auto auto auto;
+}
+.item90{
+    grid-area: 1/1/3/3;
+}
+.item95{
+    grid-area: 2/3/4/5;
+}
+
+/* box 25 style */
+.box25{
+    grid-template-columns: auto auto  auto auto;
+    grid-template-rows: auto auto auto;
+}
+.item96{
+    grid-area: 1/1/4/2;
+}
+.item99{
+    grid-area: 1/4/4/5;
+}
+
+/* box 26 style */
+.box26{
+    grid-template-columns: 20% auto 20%;
+    grid-template-rows: auto auto auto;
+}
+.item107{
+    grid-area: 1/2/4/3;
+}
+/* box 27 style */
+.box27{
+    grid-template-columns: auto 20%;
+    grid-template-rows: auto auto auto;
+}
+.item111{
+    grid-area: 1/1/4/2;
+}
+
+/* box 28 style */
+.box28{
+    grid-template-columns: auto auto  auto;
+    grid-template-rows: 25% auto;
+}
+.item118{
+    grid-area: 2/1/3/4;
+}
+
+/* box 29 style */
+.box29{
+    grid-template-columns: auto auto ;
+    grid-template-rows: auto auto;
+}
+
+/* box 30 style */
+.box30{
+    grid-template-columns: auto 20% 20%;
+    grid-template-rows: auto auto auto;
+}
+
+
+.item123{
+    grid-area: 1/1/4/2;
+}
+
+/* box 31 style */
+.box31{
+    grid-template-columns: auto auto  auto auto;
+    grid-template-rows: auto auto auto;
+}
+.item134{
+    grid-area: 2/1/3/5;
+}
+
+/* box 32 style */
+.box32{
+    grid-template-columns: auto auto  auto;
+    grid-template-rows: auto auto auto auto;
+}
+.item139{
+    grid-area: 1/1/2/4;
+}
+.item142{
+    grid-area: 2/3/4/4;
+}
+.item145{
+    grid-area: 4/1/5/4;
+}
+
+/* box 33 style */
+.box33{
+    grid-template-columns: auto auto  auto;
+    grid-template-rows: auto auto auto;
+}
+.item148{
+    grid-area: 1/3/3/4;
+}
+.item151{
+    grid-area: 3/1/4/4;
+}
+
+/* box 34 style */
+.box34{
+    grid-template-columns: auto 30%;
+    grid-template-rows: auto 25%
+}
+.item152{
+    grid-area: 1/1/3/2;
+}
+
+/* box 35 style */
+.box35{
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+}
+
+/* box 36 style */
+.box36{
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+}
+.item166{
+    grid-area: 1/3/2/4 ;
+}
+.item167{
+    grid-area: 2/2/3/3;
+}
+.item168{
+    grid-area: 2/3/3/4;
+}
+.item169{
+    grid-area: 3/1/4/2;
+}
+.item170{
+    grid-area: 3/2/4/3;
+}
+
+/* box 37 style */
+.box37{
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}

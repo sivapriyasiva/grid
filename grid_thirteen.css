@@ -1,0 +1,202 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+.container{
+    display: grid;
+    height: 100vh;
+    width:100vw;
+    gap: 50px;
+    padding: 10px;
+    grid-template-columns: 15% 15% 15% 15% 15%;
+    grid-template-rows: 50% 50% 50% 50%;
+    justify-content: center;
+
+}
+
+.main>p{
+    text-align: center;
+    padding: 5px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+
+.box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8,.box9,.box10,
+.box11,.box12,.box13,.box14,.box15,.box16,.box17,.box18,.box19,.box20{
+    display:grid;
+    gap: 10px;
+    border: 1px solid rgb(81, 180, 211);
+    border-radius: 5px;
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    
+}
+
+/* box 2 style */
+.box2{
+    grid-template-columns: auto;
+}
+.box2>div,.box3>div,.box4>div,.box5>div,.box6>div,.box7>div,.box8>div,.box9>div,.box10>div,
+.box11>div,.box12>div,.box13>div,.box14>div,.box15>div,.box16>div,.box17>div,.box18>div,.box19>div,.box20>div{
+    background-color: rgb(81, 180, 211);
+    border-radius: 3px;
+}
+
+/* box 3 */
+.box3{
+    grid-template-columns: auto auto ;
+
+}
+
+/* box 4 */
+.box4{
+    grid-template-columns: auto auto auto;
+}
+
+/* box 5 */
+.box5{
+    grid-template-columns: auto auto auto auto;
+}
+
+/* box 6 */
+.box6{
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+}
+
+/* box 7 */
+.box7{
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+}
+
+/* box 8 */
+.box8{
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+}
+
+/* box 9 */
+.box9{
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto auto;
+}
+
+/* box 10 */
+
+.box10{
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto auto auto;
+}
+
+/* box 11 */
+.box11{
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+}
+
+/* box 12 */
+.box12{
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto;
+}
+
+/* box 13 */
+.box13{
+    grid-template-columns: auto;
+    grid-template-rows: 70% auto;
+}
+
+/* box 14 */
+.box14{
+    grid-template-columns: auto auto;
+    grid-template-rows: 70% auto;
+}
+.item63{
+    grid-area: 1/1/2/3;
+}
+
+
+/* box 15 */
+.box15{
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 80% auto;
+}
+.item66{
+    grid-area: 1/1/2/5;
+}
+
+/* box 16 */
+.box16{
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+}
+.item73{
+    grid-area: 2/1/3/3;
+}
+
+/* box 17 */
+.box17{
+    grid-template-columns: 15% auto 15%;
+    grid-template-rows: auto auto auto;
+}
+.item76{
+    grid-area: 1/1/2/3;
+}
+.item79{
+    grid-area: 2/2/3/4;
+}
+.item80{
+    grid-area: 3/1/4/3;
+}
+
+/* box 18 */
+.box18{
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+}
+.item82{
+    grid-area: 1/1/3/2;
+}
+.item85{
+    grid-area: 2/2/4/3;
+}
+
+/* box 19 */
+.box19{
+    grid-template-columns: 15% auto 15%;
+    grid-template-rows: auto 30% 30% auto;
+}
+
+.item86{
+    grid-area: 1/1/3/3;
+}
+.item91{
+    grid-area: 3/2/5/4;
+}
+
+/* box 20 style */
+.box20{
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto ;
+}
+.item92{
+    grid-area: 1/1/3/3;
+}
+.item95{
+    grid-area: 2/3/4/4;
+}
+.item100{
+    grid-area: 4/1/5/3;
+}
+.item102{
+    grid-area: 4/4/6/5;
+}
+.item104{
+    grid-area: 5/2/7/4;
+}
